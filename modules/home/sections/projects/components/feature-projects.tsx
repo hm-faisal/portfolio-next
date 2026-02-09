@@ -10,7 +10,7 @@ const Projects = [
 			'A fully functional e-commerce dashboard with inventory management, order tracking, and sales analytics visualization.',
 		tags: ['React', 'Node.js', 'MongoDB'],
 		image:
-			'https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=800',
+			'https://res.cloudinary.com/djk1mxbvj/image/upload/v1770648513/Screenshot_2026-02-09_at_20-47-49_Home_Dwelling_Haven_fjicuy.png',
 		href: '/projects/1',
 	},
 	{

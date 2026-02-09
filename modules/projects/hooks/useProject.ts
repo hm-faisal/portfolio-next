@@ -9,7 +9,7 @@ const PROJECTS = [
 		tags: ['React', 'Node.js', 'MongoDB', 'D3.js'],
 		category: 'Full Stack',
 		image:
-			'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800',
+			'https://res.cloudinary.com/djk1mxbvj/image/upload/v1770648513/Screenshot_2026-02-09_at_20-47-49_Home_Dwelling_Haven_fjicuy.png',
 	},
 	{
 		id: 2,
