@@ -11,7 +11,7 @@ export const PortfolioImage = () => {
 						}}
 					></div>
 					<div
-						className='absolute -bottom-6 -left-6 bg-card-dark p-4 rounded-xl border border-card-border shadow-xl flex items-center gap-3 animate-bounce'
+						className='absolute -bottom-5 -left-2 bg-card-dark p-4 rounded-xl border border-card-border shadow-xl flex items-center gap-3 animate-bounce'
 						style={{ animationDuration: '3s' }}
 					>
 						<div className='w-10 h-10 rounded-full bg-green-500/20 flex items-center justify-center text-green-500'>

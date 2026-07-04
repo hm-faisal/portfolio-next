@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import { DiscordIcon } from '@/components/icons/DiscordIcon';
+import { LinkedinIcon } from '@/components/icons/LinkedinIcon';
 
 export const MainContent = () => {
 	return (
@@ -35,6 +37,14 @@ export const MainContent = () => {
 				>
 					<span className='material-symbols-outlined text-xl'>description</span>
 					Download Resume
+				</Link>
+			</div>
+			<div className='flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mt-4'>
+				<Link href={'https://www.linkedin.com/in/a-h-m-faisal/'}>
+					<LinkedinIcon />
+				</Link>
+				<Link href={'https://discord.com/users/faisal_61237'}>
+					<DiscordIcon />
 				</Link>
 			</div>
 		</div>

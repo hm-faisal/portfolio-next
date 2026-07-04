@@ -5,7 +5,7 @@ export const AcademicHeader = () => {
 				school
 			</span>
 			<h2 className='text-2xl font-bold text-slate-900 dark:text-white'>
-				Education
+				Skills
 			</h2>
 		</div>
 	);

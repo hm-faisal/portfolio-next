@@ -16,7 +16,7 @@ export const TimelineItem = ({
 	return (
 		<div className='relative'>
 			<span
-				className={`absolute -left-[37px] top-1 h-4 w-4 rounded-full border-2 ${
+				className={`absolute -left-[36px] top-0 h-4 w-4 rounded-full border-2 ${
 					isLatest ? 'border-primary' : 'border-slate-400 dark:border-slate-600'
 				} bg-background-light dark:bg-background-dark`}
 			></span>
