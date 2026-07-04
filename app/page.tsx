@@ -1,26 +1,26 @@
-import { ContactSection } from '../modules/home/sections/contacts';
-import { ExperienceSection } from '../modules/home/sections/experience';
-import { HeroSection } from '../modules/home/sections/hero';
-import { FeatureProjects } from '../modules/home/sections/projects';
-import { SkillsSection } from '../modules/home/sections/skills';
+import { ContactSection } from "../features/home/sections/contacts";
+import { ExperienceSection } from "../features/home/sections/experience";
+import { HeroSection } from "../features/home/sections/hero";
+import { FeatureProjects } from "../features/home/sections/projects";
+import { SkillsSection } from "../features/home/sections/skills";
 
 export default function Home() {
-	return (
-		<main className='flex-grow'>
-			{/* Hero Section */}
-			<HeroSection />
+  return (
+    <main className="flex-grow">
+      {/* Hero Section */}
+      <HeroSection />
 
-			{/* Skills Section */}
-			<SkillsSection />
+      {/* Skills Section */}
+      <SkillsSection />
 
-			{/* Featured Projects */}
-			<FeatureProjects />
+      {/* Featured Projects */}
+      <FeatureProjects />
 
-			{/* Experience Section */}
-			<ExperienceSection />
+      {/* Experience Section */}
+      <ExperienceSection />
 
-			{/* Contact Section */}
-			<ContactSection />
-		</main>
-	);
+      {/* Contact Section */}
+      <ContactSection />
+    </main>
+  );
 }
