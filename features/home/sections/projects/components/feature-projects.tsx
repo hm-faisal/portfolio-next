@@ -39,7 +39,7 @@ export const FeatureProjects = () => {
 	return (
 		<section className='py-20 relative' id='projects'>
 			<div className='absolute top-1/2 left-0 -translate-y-1/2 -translate-x-12 w-64 h-64 bg-primary/10 rounded-full blur-3xl pointer-events-none'></div>
-			<div className='max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10'>
+			<div className='max-w-300 mx-auto px-4 sm:px-6 lg:px-8 relative z-10'>
 				<SectionHeader />
 				<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
 					{Projects.map((project) => (
