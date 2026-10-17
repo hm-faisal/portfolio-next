@@ -1,4 +1,10 @@
-const ToolsSkillsList = ['Git & GitHub', 'Docker', 'Prisma', 'jest & vitest'];
+const ToolsSkillsList = [
+	'Git & GitHub',
+	'Docker',
+	'Prisma',
+	'jest & vitest',
+	'Turborepo',
+];
 
 export const ToolsSkills = () => {
 	return (

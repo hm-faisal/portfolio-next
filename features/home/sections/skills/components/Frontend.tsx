@@ -1,7 +1,8 @@
 const FrontendSkillsList = [
-	'React.js',
+	'storybook',
 	'Next.js',
-	'Tailwind CSS',
+	'React.js',
+	'Tanstack ecosystem',
 	'TypeScript',
 ];
 

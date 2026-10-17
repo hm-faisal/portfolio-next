@@ -1,4 +1,10 @@
-const BackendSkillsList = ['Node.js', 'Nest.js', 'PostgreSQL', 'MongoDB'];
+const BackendSkillsList = [
+	'PostgreSQL',
+	'MongoDB',
+	'Prisma & Drizzle',
+	'Nest.js',
+	'Node.js',
+];
 
 export const BackendSkills = () => {
 	return (
